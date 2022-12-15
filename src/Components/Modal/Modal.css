@@ -1,0 +1,27 @@
+.common{
+    z-index: 1000;
+    position: absolute;
+   }
+   
+   
+   
+   .hide-login{
+   transform: translateY(-150%);
+   transition: 0.4s ease-out;
+   }
+   
+   
+   .show-login{
+       transform: translateY(0%);
+       transition: 0.4s ease-in;
+      position: fixed;
+   }
+   
+   .modal-layer{
+       background-color: rgba(0, 0, 0, 0.507);
+       transition:0.4s ease-in-out;
+       height: 100vh;
+       z-index: 100;
+       position: fixed;
+       top: 0;
+   }

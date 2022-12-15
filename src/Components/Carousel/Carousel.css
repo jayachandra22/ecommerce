@@ -1,0 +1,23 @@
+.banner{
+    transition: 0.2s ease-in;
+    width:100px;
+  }
+  
+  .banner:hover{
+    transform: scale(1.05);
+  }
+
+
+  .car-title{
+      color: black;
+    font-weight: 100;
+    font-size: 60px;
+    transform: translateY(-100%);
+  }
+
+  .car-des{
+    color: black;
+    font-weight: 100;
+    transform: translateY(0%);
+  }
+

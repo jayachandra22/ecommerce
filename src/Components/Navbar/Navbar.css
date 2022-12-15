@@ -1,0 +1,167 @@
+
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .carticon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+  
+  
+  .icon{
+      font-size: 25px;
+  }
+  
+  .user{
+   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  }
+  
+  .cart{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       transition: 0.2s ease-in;
+  }
+  
+  .cart:hover{
+    background-color: rgb(233, 243, 252);
+    color: black;
+  }
+  
+  
+  
+  
+  .navbar {
+    background-color: rgb(233, 243, 252);
+  }
+  
+  .navbar-brand{
+    font-weight: 700;
+    font-size: 22px;
+    
+  }
+  
+  .nav-link{
+    font-weight: 300;
+    font-size: 17px;
+    transition: 0.2s ease-in;
+    color:black;
+  }
+  
+  
+  .nav-link:hover{
+    color:rgb(249,101,44);
+  }
+  
+  
+  /*sidebar*/
+  .sidebaricon{
+    display: none;
+  }
+  
+  
+  @media (max-width:991px){
+  
+     .sidebaricon{
+       display: block;
+       font-size: 30px;
+       color: rgb(249,101,44);
+     }
+  
+  }
+  
+
+  .sidebar-open{
+    width: 240px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    position: fixed;
+    background-color: rgb(233, 243, 252);
+    top: 0;
+    transform: translateX(0%);
+    transition: 0.2s;
+  }
+  
+  
+  .sidebar-close{
+    width: 240px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+   transform: translateX(-100%);
+   transition: 0.2s;
+  }
+  
+  
+  .sidebarcross{
+   color:rgb(249,101,44);
+   font-size: 25px;
+  }
+  
+  
+  @media (min-width:992px) {
+    .sidebarcross{
+      display: none;
+     }
+  
+  }
+  
+  
+  .side-box{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  
+  }
+  
+  .side-nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   border-radius: 5px;
+   padding: 0px 110px 0px 0px ;
+   transition: 0.1s ease-in;
+  }
+  
+  .sideicon{
+    font-size: 20px;
+    color: black;
+    transition: 0.1s ease-in;
+  }
+  
+  
+  .side-title{
+    color: black;
+    transition: 0.1s ease-in;
+    text-decoration: none;
+  }
+  
+  
+  
+  .side-nav:hover{
+   background-color:rgb(249,101,44);
+  
+  }
+  
+  
+  
+  .side-nav:hover .side-title{
+   color: white;
+   }
+  
+  .side-nav:hover .sideicon{
+    color: white;
+    }
